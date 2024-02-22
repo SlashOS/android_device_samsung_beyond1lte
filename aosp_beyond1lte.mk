@@ -32,6 +32,7 @@ $(call inherit-product, device/samsung/beyond1lte/device.mk)
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 3040
 TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
 
 ## Inherit some common Lineage stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
